@@ -1,2 +1,2 @@
-# lsp.github.io
+# LSP
 A user friendly version of LSP documentation
