@@ -32,7 +32,7 @@ In this request:
 
 #### Response Structure
 
-There is no specific response structure for `window/workDoneProgress/cancel`. Upon receiving this request, the server should cancel the associated task as soon as possible if it’s still running.
+There is no specific response structure for `window/workDoneProgress/cancel`. Upon receiving this request, the server should cancel the associated task as soon as possible if it s still running.
 
 #### Summary
 

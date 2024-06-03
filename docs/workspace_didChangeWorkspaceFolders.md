@@ -12,7 +12,7 @@ Consider a developer working on a project divided into multiple sub-projects, ea
 
 #### Request Structure
 
-Since `workspace/didChangeWorkspaceFolders` is a notification, there aren’t any direct responses from the server. However, it’s worth noting that the structure of the notification sent to the server includes an object representing the added or removed folders.
+Since `workspace/didChangeWorkspaceFolders` is a notification, there aren t any direct responses from the server. However, it s worth noting that the structure of the notification sent to the server includes an object representing the added or removed folders.
 
 **Request:**
 

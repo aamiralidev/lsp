@@ -8,7 +8,7 @@ The `workspace/codeLens/refresh` command is necessary for keeping the code lense
 
 #### Example Scenario
 
-Imagine you’re developing an application using an LSP-compliant editor like VSCode. You’ve installed several extensions that provide code lenses for unit test execution, reference counting, and issue tracking. If you've made modifications to the code, the language server can trigger the `workspace/codeLens/refresh` command to update these code lenses based on the new code state.
+Imagine you re developing an application using an LSP-compliant editor like VSCode. You ve installed several extensions that provide code lenses for unit test execution, reference counting, and issue tracking. If you've made modifications to the code, the language server can trigger the `workspace/codeLens/refresh` command to update these code lenses based on the new code state.
 
 #### Request Structure
 

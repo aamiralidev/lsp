@@ -8,7 +8,7 @@ The `documentLink/resolve` command assists developers in navigation between diff
 
 #### Example Scenario
 
-Consider a scenario where you have a comment above a function in your code that says “Refer to Issue #123”. ‘Issue #123’ is a hyperlink that links to the issue tracker of the project. The `documentLink/resolve` command can be used to navigate to that issue directly from the code.
+Consider a scenario where you have a comment above a function in your code that says  Refer to Issue #123 .  Issue #123  is a hyperlink that links to the issue tracker of the project. The `documentLink/resolve` command can be used to navigate to that issue directly from the code.
 
 #### Request Structure
 

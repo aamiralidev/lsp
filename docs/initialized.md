@@ -52,7 +52,7 @@ No formal response is expected to the `initialized` notification. However, serve
 
 In this response:
 - `method` specifies the type of notification or request initiated by the server in response to the `initialized` notification.
-- `params` contains the parameters required by the `workspace/configuration` method. Here, it’s requesting the configuration of the python interpreter used.
+- `params` contains the parameters required by the `workspace/configuration` method. Here, it s requesting the configuration of the python interpreter used.
 
 ### Summary
 

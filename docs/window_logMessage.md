@@ -1,6 +1,6 @@
 ### `window/logMessage` Command in LSP
 
-The `window/logMessage` request in the Language Server Protocol (LSP) is used by the language server to push log messages to the client. These messages indicate details about the server’s execution and its internal state. 
+The `window/logMessage` request in the Language Server Protocol (LSP) is used by the language server to push log messages to the client. These messages indicate details about the server s execution and its internal state. 
 
 #### Purpose
 
