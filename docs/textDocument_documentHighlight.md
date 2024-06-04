@@ -1,4 +1,4 @@
-### `textDocument/documentHighlight` Command in LSP
+### Text Document / Document Highlight
 
 The `textDocument/documentHighlight` command in the Language Server Protocol (LSP) is used to request highlights for all occurrences of a symbol within the same open text document.
 

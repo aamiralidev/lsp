@@ -1,4 +1,4 @@
-### `textDocument/moniker` Command in LSP
+### Text Document / Moniker
 
 The `textDocument/moniker` request in the Language Server Protocol (LSP) is used to compute monikers for a symbol at a given text document position. A moniker is essentially an identifier that helps to uniquely identify a symbol within the workspace or across different workspaces.
 

@@ -1,4 +1,4 @@
-### `textDocument/typeDefinition` Command in LSP
+### Text Document / Type Definition
 
 The `textDocument/typeDefinition` request is a command used in the Language Server Protocol (LSP). The purpose of this command is to retrieve type definition for a given symbol in a specified position of a text document.
 

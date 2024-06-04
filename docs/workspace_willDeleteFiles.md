@@ -1,4 +1,4 @@
-### `workspace/willDeleteFiles` Command in LSP
+### Workspace / Will Delete Files
 
 The `workspace/willDeleteFiles` request in the Language Server Protocol (LSP) is a notification sent from the client to the server before files get deleted from the workspace. The server can then perform necessary preparations, such as saving state or cleaning resources related to the files about to be deleted.
 

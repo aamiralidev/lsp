@@ -1,4 +1,4 @@
-### `textDocument/onTypeFormatting` Command in LSP
+### Text Document / On Type Formatting
 
 The `textDocument/onTypeFormatting` request in the Language Server Protocol (LSP) is used to trigger format operations on the content of a text document based on typing.
 

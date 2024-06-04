@@ -1,4 +1,4 @@
-### `inlayHint/resolve` Command in LSP
+### Inlay Hint / Resolve
 
 The `inlayHint/resolve` request in the Language Server Protocol (LSP) is a function used to gather further details about a specific inlay hint. This is part of the Inlay Hints feature which provides inline contextual details that help developers understand the code better.
 

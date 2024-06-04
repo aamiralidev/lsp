@@ -1,4 +1,4 @@
-### `textDocument/prepareRename` Command in LSP
+### Text Document / Prepare Rename
 
 The `textDocument/prepareRename` request in the Language Server Protocol (LSP) is used to ask the server whether the symbol at the given text document position would be valid for a rename operation.
 

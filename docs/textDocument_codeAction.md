@@ -1,4 +1,4 @@
-### `textDocument/codeAction` Command in LSP
+### Text Document / Code Action
 
 The `textDocument/codeAction` request in the Language Server Protocol (LSP) is used to compute commands for a given text range. 
 

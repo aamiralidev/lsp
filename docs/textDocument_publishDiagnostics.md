@@ -1,4 +1,4 @@
-### `textDocument/publishDiagnostics` Command in LSP
+### Text Document / Publish Diagnostics
 
 The `textDocument/publishDiagnostics` command in the Language Server Protocol (LSP) is a notification that the language server sends to the client when there are diagnostic updates for a particular file, such as errors or warnings.
 

@@ -1,4 +1,4 @@
-### `initialized` Command in LSP
+### Initialized
 
 The `initialized` notification in the Language Server Protocol (LSP) is sent by the client to the server after the server has started successfully. It indicates that the client is ready to send further requests or notifications. 
 

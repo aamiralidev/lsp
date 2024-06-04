@@ -1,4 +1,4 @@
-### `callHierarchy/incomingCalls` Command in LSP
+### Call Hierarchy / Incoming Calls
 
 The `callHierarchy/incomingCalls` request is used in the Language Server Protocol (LSP) for obtaining incoming calls targeting a specific method or function. It is part of the call hierarchy functionality to enhance developers' understanding of the invocation of specific methods or functions across different locations in the source code.
 

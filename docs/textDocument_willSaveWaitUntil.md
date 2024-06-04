@@ -1,4 +1,4 @@
-### `textDocument/willSaveWaitUntil` Command in LSP
+### Text Document / Will Save Wait Until
 
 The `textDocument/willSaveWaitUntil` request in the Language Server Protocol (LSP) is utilized when a document is about to be saved and the client requests potential edits from the server to modify the document before it is saved.
 

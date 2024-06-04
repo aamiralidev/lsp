@@ -1,4 +1,4 @@
-### `textDocument/hover` Command in LSP
+### Text Document / Hover
 
 The `textDocument/hover` request in the Language Server Protocol (LSP) is used to request hover information for a given text position within a document. It typically fetches things like documentation or brief descriptions about symbols in the code.
 

@@ -1,4 +1,4 @@
-### `textDocument/linkedEditingRange` Command in LSP
+### Text Document / Linked Editing Range
 
 The `textDocument/linkedEditingRange` request in the Language Server Protocol (LSP) is used to find all the text positions that must be changed when renaming a symbol. It enables simultaneous editing of these positions, making refactoring easier.
 

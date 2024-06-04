@@ -1,4 +1,4 @@
-### `textDocument/colorPresentation` Command in LSP
+### Text Document / Color Presentation
 
 The `textDocument/colorPresentation` request in the Language Server Protocol (LSP) is used to obtain a list of different ways a color can be represented in the source code.
 

@@ -1,4 +1,4 @@
-### `textDocument/declaration` Command in LSP
+### Text Document / Declaration
 
 The `textDocument/declaration` request in the Language Server Protocol (LSP) is used to navigate to the declaration of a symbol (variable, function, class, etc.) from its usage.
 

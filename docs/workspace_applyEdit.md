@@ -1,4 +1,4 @@
-### `workspace/applyEdit` Command in LSP
+### Workspace / Apply Edit
 
 The `workspace/applyEdit` request is a part of the Language Server Protocol (LSP) and it is used to request the application of a workspace edit from the server to the client-side.
 

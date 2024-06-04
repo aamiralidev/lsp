@@ -1,4 +1,4 @@
-### `workspace/didCreateFiles` Command in LSP
+### Workspace / Did Create Files
 
 The `workspace/didCreateFiles` notification in the Language Server Protocol (LSP) is used to inform the language server that certain files have been created. Since this is a notification, not a request, the server will not send any response back.
 

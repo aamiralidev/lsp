@@ -1,4 +1,4 @@
-### `client/unregisterCapability` Command in LSP
+### Client / Unregister Capability
 
 The `client/unregisterCapability` request in the Language Server Protocol (LSP) is used to unregister a previously registered capability. This request is initiated by the server when it no longer wants to avail a certain capability from the client. 
 

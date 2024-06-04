@@ -1,4 +1,4 @@
-### `textDocument/didSave` Command in LSP
+### Text Document / Did Save
 
 The `textDocument/didSave` notification in the Language Server Protocol (LSP) is sent from the client to the server to inform the server when a document is saved.
 

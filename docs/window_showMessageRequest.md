@@ -1,4 +1,4 @@
-### `window/showMessageRequest` command in LSP
+### Window / Show Message Request
 
 The `window/showMessageRequest` command in the Language Server Protocol (LSP) is used to send a message to the user from the server and requests the client to provide a response based on the provided actions.
 

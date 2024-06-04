@@ -1,4 +1,4 @@
-### `shutdown` Command in LSP
+### Shutdown
 
 The `shutdown` request in the Language Server Protocol (LSP) is used to request the server to shut down. Rather than abruptly closing the server, this request allows an organized and graceful shutdown process.
 

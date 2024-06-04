@@ -1,4 +1,4 @@
-### `workspace/codeLens/refresh` Command in LSP
+### Workspace / Code Lens / Refresh
 
 The `workspace/codeLens/refresh` request in the Language Server Protocol (LSP) is used to ask the client to refresh the code lenses in an editor. This becomes necessary when the language server has detected a change that would alter the code lenses but can't send this to the client because there is no specific code lens section in the `didChange` notification.
 

@@ -1,4 +1,4 @@
-The `exit` request in the Language Server Protocol (LSP) is used for orderly termination of the language server. It is sent from the client to the server when the client decides to shutdown and exit its process.
+### Exit
 
 #### Purpose
 The `exit` request enables clean and safe termination of the language server. It ensures that any ongoing tasks are completed and important data is saved before the server is shut down, avoiding any unwanted loss of data.

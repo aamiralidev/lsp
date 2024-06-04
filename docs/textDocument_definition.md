@@ -1,4 +1,4 @@
-### `textDocument/definition` Command in LSP
+### Text Document / Definition
 
 The `textDocument/definition` request in the Language Server Protocol (LSP) is used to obtain the location(s) that define the symbol denoted by the text under the cursor.
 

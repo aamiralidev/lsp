@@ -1,4 +1,4 @@
-### `textDocument/inlayHint` Command in LSP
+### Text Document / Inlay Hint
 
 The `textDocument/inlayHint` request in the Language Server Protocol (LSP) is used to provide inline hints for certain constructs or expressions in the code, such as types, parameter names, or values. These hints are usually available in richer text editors or IDEs and provide additional, context-specific information directly in the source text. This is a part of the Inlay Hints feature.
 

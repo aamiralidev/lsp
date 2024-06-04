@@ -1,4 +1,4 @@
-### `workspace/symbol` Command in LSP
+### Workspace / Symbol
 
 The `workspace/symbol` request in the Language Server Protocol (LSP) is used to search for all the symbols in the entire workspace. Symbols can include functions, classes, variables, or type definitions. This is particularly useful for navigation and moving around large code bases.
 

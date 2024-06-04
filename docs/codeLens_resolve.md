@@ -1,4 +1,4 @@
-### `codeLens/resolve` Command in LSP
+### Code Lens / Resolve
 
 The `codeLens/resolve` request in the Language Server Protocol (LSP) is used to compute missing details for a given code lens item. Command resolution is used to avoid computing complex details when they might not be needed (e.g., to improve responsiveness/performance during codeLens computation).
 

@@ -1,4 +1,4 @@
-### `workspaceSymbol/resolve` Command in LSP
+### Workspace Symbol / Resolve
 
 The `workspaceSymbol/resolve` request is part of the Language Server Protocol (LSP) used to retrieve detailed information about a specific workspace symbol. The command is used when additional information about a symbol located in a workspace is required.
 

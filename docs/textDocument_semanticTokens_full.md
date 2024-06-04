@@ -1,4 +1,4 @@
-### `textDocument/semanticTokens/full` Command in LSP
+### Text Document / Semantic Tokens / Full
 
 The `textDocument/semanticTokens/full` request in the Language Server Protocol (LSP) is used to fetch semantic tokens for a whole file. Semantic tokens provide a structured portrayal of the syntax in a file, allowing entities like variables, functions, classes etc., to be categorized according to predefined standard types and modifiers.
 

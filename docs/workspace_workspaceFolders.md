@@ -1,4 +1,4 @@
-### `workspace/workspaceFolders` Command in LSP
+### Workspace / Workspace Folders
 
 The `workspace/workspaceFolders` request in the Language Server Protocol (LSP) is used to fetch all the root workspace folders in a language client.
 

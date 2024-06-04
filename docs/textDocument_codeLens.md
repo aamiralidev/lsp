@@ -1,4 +1,4 @@
-### `textDocument/codeLens` Command in LSP
+### Text Document / Code Lens
 
 The `textDocument/codeLens` request in the Language Server Protocol (LSP) is used for gathering metadata information, typically useful for a specific point of view like code references, error information, etc. Each lens typically shows up in the places like above function definitions.
 

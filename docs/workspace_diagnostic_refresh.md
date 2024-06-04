@@ -1,4 +1,4 @@
-### `workspace/diagnostic/refresh` Command in LSP
+### Workspace / Diagnostic / Refresh
 
 The `workspace/diagnostic/refresh` request in the Language Server Protocol (LSP) is used to request the refresh of all diagnostics information in the workspace. This command aims to sync the new diagnostics data from server side to the client side.
 

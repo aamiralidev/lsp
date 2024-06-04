@@ -1,4 +1,4 @@
-### `notebookDocument/didChange` Event in LSP
+### Notebook Document / Did Change
 
 The `notebookDocument/didChange` event is a part of the Notebooks feature in the Language Server Protocol (LSP). It is generated when changes are made to a notebook, such as creating, deleting or reordering cells.
 

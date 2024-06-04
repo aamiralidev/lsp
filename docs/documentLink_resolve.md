@@ -1,4 +1,4 @@
-### `documentLink/resolve` Command in LSP
+### Document Link / Resolve
 
 The `documentLink/resolve` request in the Language Server Protocol (LSP) is used to resolve the target of a given document link. Document links are typically underlined sections of text that refer to other documents.
 

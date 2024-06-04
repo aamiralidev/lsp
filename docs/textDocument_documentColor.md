@@ -1,4 +1,4 @@
-### `textDocument/documentColor` Command in LSP
+### Text Document / Document Color
 
 The `textDocument/documentColor` request in the Language Server Protocol (LSP) is used to retrieve all color information found in a given text document. This can be particularly useful in web or app development where colors are codified in either RGB, HEX, or other color systems.
 

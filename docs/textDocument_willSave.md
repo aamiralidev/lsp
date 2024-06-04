@@ -1,4 +1,4 @@
-### `textDocument/willSave` Command in LSP
+### Text Document / Will Save
 
 The `textDocument/willSave` request in the Language Server Protocol (LSP) is sent from the client to the server before the document is actually saved in the client's IDE or text editor. This gives the server the opportunity to take actions based on the impending save operation.
 

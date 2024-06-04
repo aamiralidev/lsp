@@ -1,4 +1,4 @@
-### `textDocument/prepareCallHierarchy` Command in LSP
+### Text Document / Prepare Call Hierarchy
 
 The `textDocument/prepareCallHierarchy` request in the Language Server Protocol (LSP) is used to prepare a call hierarchy for a function or method located at a specified text document position. This involves gathering information for a Call Hierarchy Item that can be used for subsequent `call_hierarchy/incomingCalls` or `call_hierarchy/outgoingCalls` requests.
 

@@ -1,4 +1,4 @@
-### `textDocument/semanticTokens/range` Command in LSP
+### Text Document / Semantic Tokens / Range
 
 The `textDocument/semanticTokens/range` request in the Language Server Protocol (LSP) is used to fetch semantic tokens for a given range. Semantic tokens are used to highlight the syntax of source code, where each token refers to a span of source code that has semantic meaning.
 

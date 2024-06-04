@@ -1,4 +1,4 @@
-### `initialize` Command in LSP
+### Initialize
 
 The `initialize` request in the Language Server Protocol (LSP) is used to initialize the server functionalities with the client. It's the first request that the client sends the server after the connection has been established.
 

@@ -1,4 +1,4 @@
-### `workspace/inlineValue/refresh` Command in LSP
+### Workspace / Inline Value / Refresh
 
 The `workspace/inlineValue/refresh` request in the Language Server Protocol (LSP) is used to trigger the refresh of inline values. Inline values are values calculated by the language server and then displayed inside the source code by the language client, usually a code editor.
 

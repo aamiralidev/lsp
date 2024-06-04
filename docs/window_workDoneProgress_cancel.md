@@ -1,4 +1,4 @@
-### `window/workDoneProgress/cancel` Command in LSP
+### Window / Work Done Progress / Cancel
 
 The `window/workDoneProgress/cancel` request in the Language Server Protocol (LSP) is used to cancel an ongoing work item. This is part of the Work Done Progress feature, which allows clients to track the progress of long-running tasks like code compilation or analysis, and potentially cancel them if needed.
 

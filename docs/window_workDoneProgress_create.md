@@ -1,4 +1,4 @@
-### `window/workDoneProgress/create` Command in LSP
+### Window / Work Done Progress / Create
 
 The `window/workDoneProgress/create` request in the Language Server Protocol (LSP) is used to create a WorkDoneProgress token. This is part of the Work Done Progress feature, which allows a language server to report long running tasks to the client.
 

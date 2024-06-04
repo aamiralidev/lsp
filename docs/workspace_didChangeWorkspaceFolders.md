@@ -1,4 +1,4 @@
-### `workspace/didChangeWorkspaceFolders` Command in LSP
+### Workspace / Did Change Workspace Folders
 
 The `workspace/didChangeWorkspaceFolders` notification in the Language Server Protocol (LSP) is used to denote changes to the workspace folders. Introduction of this command allows the language server to manage several root folders making it a robust multi-root workspace.
 

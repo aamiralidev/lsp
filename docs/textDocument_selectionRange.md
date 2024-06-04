@@ -1,4 +1,4 @@
-### `textDocument/selectionRange` Command in LSP
+### Text Document / Selection Range
 
 The `textDocument/selectionRange` request is part of the Language Server Protocol (LSP). It's used to obtain selection ranges for given positions in a text document. Selections are typically used for features like 'Expand/Shrink Selection' in text editors or IDEs.
 

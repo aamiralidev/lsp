@@ -1,4 +1,4 @@
-### `notebookDocument/didClose` Command in LSP
+### Notebook Document / Did Close
 
 The `notebookDocument/didClose` notification in the Language Server Protocol (LSP) comprises the beginnings of LSP's support for the editor environment. The notification informs the server that the client has closed the specified notebook document. It is only sent if the server has the `notebookProvider` capability.
 

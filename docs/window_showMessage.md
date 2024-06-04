@@ -1,4 +1,4 @@
-### `window/showMessage` Command in LSP
+### Window / Show Message
 
 The `window/showMessage` request in the Language Server Protocol (LSP) is a command that the server sends to the client in order to ask it to display a particular message, typically in a pop-up window.
 

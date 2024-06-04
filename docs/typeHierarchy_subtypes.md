@@ -1,4 +1,4 @@
-### `typeHierarchy/subtypes` Command in LSP
+### Type Hierarchy / Subtypes
 
 The `typeHierarchy/subtypes` request in the Language Server Protocol (LSP) is used to retrieve all the subtypes of a given type. This is part of the Type Hierarchy feature, allowing developers to understand the inheritance relationship of classes in object-oriented programming.
 

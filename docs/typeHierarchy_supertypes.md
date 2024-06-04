@@ -1,4 +1,4 @@
-### `typeHierarchy/supertypes` Command in LSP
+### Type Hierarchy / Supertypes
 
 The `typeHierarchy/supertypes` request in the Language Server Protocol (LSP) is used to retrieve the supertypes for a given class or interface. This feature is part of the Type Hierarchy, which helps developers understand the structure of object-oriented code.
 

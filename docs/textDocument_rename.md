@@ -1,4 +1,4 @@
-### `textDocument/rename` Command in LSP
+### Text Document / Rename
 
 The `textDocument/rename` request in the Language Server Protocol (LSP) is utilized to rename all occurrences of a symbol found in the text document.
 

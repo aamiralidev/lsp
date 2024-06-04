@@ -1,4 +1,4 @@
-### `workspace/configuration` Command in LSP
+### Workspace / Configuration
 
 The `workspace/configuration` request in the Language Server Protocol (LSP) is used to fetch configuration settings of the workspace.
 

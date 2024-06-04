@@ -1,4 +1,4 @@
-### `workspace/didDeleteFiles` Command in LSP
+### Workspace / Did Delete Files
 
 The `workspace/didDeleteFiles` notification in the Language Server Protocol (LSP) is used to alert the Language Server about the deletion of a file or several files in the workspace. This allows the Language Server to update its internal representation of the workspace and avoid potential errors caused by referring to deleted files.
 

@@ -1,4 +1,4 @@
-### `workspace/semanticTokens/refresh` Command in LSP
+### Workspace / Semantic Tokens / Refresh
 
 The `workspace/semanticTokens/refresh` request in the Language Server Protocol (LSP) is used to ask the client to refresh the semantic tokens for an editor. Semantic tokens provide a base to highlight syntax and semantics of source files in different colors. 
 

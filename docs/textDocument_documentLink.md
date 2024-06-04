@@ -1,4 +1,4 @@
-### `textDocument/documentLink` Request in LSP
+### Text Document / Document Link
 
 The `textDocument/documentLink` request in the Language Server Protocol (LSP) is used to request all the document links from a certain file. The Document Links feature allows a client to request all likely locations within a document that can be used as hyperlinks to other documents.
 

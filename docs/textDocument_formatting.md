@@ -1,4 +1,4 @@
-### `textDocument/formatting` Command in LSP
+### Text Document / Formatting
 
 In the Language Server Protocol (LSP), the `textDocument/formatting` request is used to request the whole content of a document to be formatted. It is a helpful feature that helps developers in auto-formatting their code based on predefined rules.
 

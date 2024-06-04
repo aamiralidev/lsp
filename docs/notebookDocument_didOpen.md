@@ -1,4 +1,4 @@
-### `notebookDocument/didOpen` Command in LSP
+### Notebook Document / Did Open
 
 The `notebookDocument/didOpen` notification is used in the Language Server Protocol (LSP) to notify the language server that a notebook document has been opened by the client. It's part of the functionality that allows IDEs or editors to work with Jupyter notebooks or any other structured document that can be thought of as a "notebook".
 

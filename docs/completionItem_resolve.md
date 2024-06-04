@@ -1,4 +1,4 @@
-### `completionItem/resolve` Command in LSP
+### Completion Item / Resolve
 
 The `completionItem/resolve` request in the Language Server Protocol (LSP) is used to process a completion item that was previously unresolved by the `textDocument/completion` command. The purpose of this command is to provide additional details about a completion item that might be more expensive to compute, so are deferred until needed.
 

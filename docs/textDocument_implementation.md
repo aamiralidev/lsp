@@ -1,4 +1,4 @@
-### `textDocument/implementation` Command in LSP
+### Text Document / Implementation
 
 The `textDocument/implementation` request in the Language Server Protocol (LSP) is used to get the implementation location(s) of a symbol at a given text document position. This feature allows developers to navigate through a codebase by going directly from interface or abstract classes to their actual implementation.
 

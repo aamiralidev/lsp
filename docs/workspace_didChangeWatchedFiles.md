@@ -1,4 +1,4 @@
-### `workspace/didChangeWatchedFiles` Command in LSP
+### Workspace / Did Change Watched Files
 
 The `workspace/didChangeWatchedFiles` command in the Language Server Protocol (LSP) is used to notify the server when a file has been changed, created, or deleted. This is part of the File Notifications feature, which provides a server with change notifications.
 

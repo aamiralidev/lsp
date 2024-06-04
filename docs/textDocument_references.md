@@ -1,4 +1,4 @@
-### `textDocument/references` Command in LSP
+### Text Document / References
 
 The `textDocument/references` request in the Language Server Protocol (LSP) is used to find all references to a specific location within a piece of code. These references might be functions, variables, modules, or any construct within the code that may be referred to elsewhere.
 

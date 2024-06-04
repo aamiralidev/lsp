@@ -1,4 +1,4 @@
-### `workspace/didRenameFiles` Command in LSP
+### Workspace / Did Rename Files
 
 The `workspace/didRenameFiles` notification in the Language Server Protocol (LSP) is used to report renamed files in the workspace. This allows language servers to remain up-to-date with changes in the workspace made by the user, ensuring that any symbols defined in renamed files can still be resolved correctly.
 

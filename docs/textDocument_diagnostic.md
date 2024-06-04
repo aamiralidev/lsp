@@ -1,4 +1,4 @@
-### `textDocument/publishDiagnostics` Command in LSP
+### Text Document / Publish Diagnostics
 
 The `textDocument/publishDiagnostics` request in the Language Server Protocol (LSP) is used to send diagnostic information from the server to the client. Diagnostic information typically includes errors, warnings, and hints about potential issues within a piece of code.
 

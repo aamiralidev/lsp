@@ -1,4 +1,4 @@
-### `textDocument/didChange` Command in LSP
+### Text Document / Did Change
 
 The `textDocument/didChange` notification in the Language Server Protocol (LSP) is sent from the client to the server to signal changes to a text document. It's part of the Text Synchronization API, a feature that ensures the server and the client have the same version of the document.
 

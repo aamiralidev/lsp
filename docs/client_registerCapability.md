@@ -1,4 +1,4 @@
-### `client/registerCapability` Command in LSP
+### Client / Register Capability
 
 The `client/registerCapability` request in the Language Server Protocol (LSP) is used to dynamically register capabilities of the client with the server. It allows the server to push new capabilities to the client post-initialization, offering additional flexibility in communication.
 

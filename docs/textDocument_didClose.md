@@ -1,4 +1,4 @@
-### `textDocument/didClose` Command in LSP
+### Text Document / Did Close
 
 The `textDocument/didClose` request in the Language Server Protocol (LSP) is sent from a client to a server to notify the server that a text document is no longer in use by the client and the server can free up any resources such as caches related to that document.
 

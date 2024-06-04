@@ -1,4 +1,4 @@
-### `workspace/didChangeConfiguration` Command in LSP
+### Workspace / Did Change Configuration
 
 The `workspace/didChangeConfiguration` notification in the Language Server Protocol (LSP) is sent by the client to the server to indicate changes in configuration settings. LSP enables integration of text editors or integrated development environments (IDEs) with services (servers) that provide language features like autocomplete, go to definition, find all references etc.
 

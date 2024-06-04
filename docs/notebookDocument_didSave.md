@@ -1,4 +1,4 @@
-### `notebookDocument/didSave` Command in LSP
+### Notebook Document / Did Save
 
 The `notebookDocument/didSave` notification in the Language Server Protocol (LSP) is used to alert the server whenever a notebook document is saved. Notebook documents typically consist of code and rich text content that can be executed in place, such as Jupyter Notebooks.
 

@@ -1,4 +1,4 @@
-### `textDocument/prepareTypeHierarchy` Command in LSP
+### Text Document / Prepare Type Hierarchy
 
 The `textDocument/prepareTypeHierarchy` request in the Language Server Protocol (LSP) is used to prepare the type hierarchy information for a given location (symbol) in a specific text document. It forms the basis for the Type Hierarchy feature in supported IDEs, enabling developers to investigate and navigate through inheritance relationships and implementers of an interface.
 

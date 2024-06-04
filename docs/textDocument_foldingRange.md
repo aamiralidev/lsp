@@ -1,4 +1,4 @@
-### `textDocument/foldingRange` Command in LSP
+### Text Document / Folding Range
 
 The `textDocument/foldingRange` request in the Language Server Protocol (LSP) is used to retrieve folding ranges in a given text document. This feature allows developers to collapse (or fold) and expand (or unfold) sections of source code in order to improve readability and easier navigation.
 

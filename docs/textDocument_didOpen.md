@@ -1,4 +1,4 @@
-### `textDocument/didOpen` Command in LSP
+### Text Document / Did Open
 
 The `textDocument/didOpen` command in the Language Server Protocol (LSP) is used when a client opens a document. This notification is sent to the language server from the client to signal that a new document is now managed by the client and the document's content is provided in the params of the request.
 

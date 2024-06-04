@@ -1,4 +1,4 @@
-### `workspace/willRenameFiles` Command in LSP
+### Workspace / Will Rename Files
 
 The `workspace/willRenameFiles` request in the Language Server Protocol (LSP) is used as a notification sent by the client to the server before the client is renaming one or more files. This allows the server to provide edits that should be applied to the workspace before the given files are renamed.
 

@@ -1,4 +1,4 @@
-### `textDocument/rangeFormatting` Command in LSP
+### Text Document / Range Formatting
 
 The `textDocument/rangeFormatting` request in the Language Server Protocol (LSP) is used to format a specific range within a text document. This command is part of the formatting feature, allowing developers to improve readability and maintain consistency of code within a specified range.
 

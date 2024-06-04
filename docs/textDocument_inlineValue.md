@@ -1,4 +1,4 @@
-### `textDocument/inlineValues` Command in LSP
+### Text Document / Inline Values
 
 The `textDocument/inlineValues` request in the Language Server Protocol (LSP) is used to retrieve inline values for a given source code. Inline values in this context refer to the computed values of variables or expressions at a specific position in the source code.
 

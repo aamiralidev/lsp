@@ -1,4 +1,4 @@
-### `window/showDocument` Command in LSP
+### Window / Show Document
 
 The `window/showDocument` request in the Language Server Protocol (LSP) opens a text document in the client. It returns whether the document was successfully opened or not. 
 

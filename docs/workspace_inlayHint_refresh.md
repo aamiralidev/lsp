@@ -1,4 +1,4 @@
-### `workspace/inlayHint/refresh` Command in LSP
+### Workspace / Inlay Hint / Refresh
 
 The `workspace/inlayHint/refresh` request in the Language Server Protocol (LSP) is used to manually refresh inline/inlay hints. These are small hints that can be inserted by the language server into the text document to help developers grasp the code more effectively.
 

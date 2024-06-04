@@ -1,4 +1,4 @@
-### `callHierarchy/outgoingCalls` Command in LSP
+### Call Hierarchy / Outgoing Calls
 
 The `callHierarchy/outgoingCalls` request in the Language Server Protocol (LSP) is used to retrieve all outgoing calls from a given function or method. This is part of the Call Hierarchy feature, which allows developers to understand where a particular function or method is calling other parts of the codebase.
 

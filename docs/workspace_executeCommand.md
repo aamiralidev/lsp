@@ -1,4 +1,4 @@
-### `workspace/executeCommand` Command in LSP
+### Workspace / Execute Command
 
 The `workspace/executeCommand` request in the Language Server Protocol (LSP) is used to execute a predefined server command. These commands can be additional server capabilities, such as sort imports, generate a getter or setter, refactor a line of code, or any other operation the server supports.
 

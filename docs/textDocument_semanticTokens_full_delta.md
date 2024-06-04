@@ -1,4 +1,4 @@
-### `textDocument/semanticTokens/full/delta` Command in LSP
+### Text Document / Semantic Tokens / Full / Delta
 
 The `textDocument/semanticTokens/full/delta` request in the Language Server Protocol (LSP) is used to retrieve semantic tokens for a text document in a delta format. Semantic tokens provide information about the semantic meaning of symbols in a text document. The delta format provides only the changes in semantic tokens from the last requested state, not the whole set.
 

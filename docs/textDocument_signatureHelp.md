@@ -1,4 +1,4 @@
-### `textDocument/signatureHelp` Command in LSP
+### Text Document / Signature Help
 
 The `textDocument/signatureHelp` request in the Language Server Protocol (LSP) is used to retrieve the signature help for a given function or method call. This feature helps by providing real-time assistance to developers by showing function/method overloads, parameters, and documentation while they write code.
 

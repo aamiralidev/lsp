@@ -1,4 +1,4 @@
-### `workspace/willCreateFiles` Command in LSP
+### Workspace / Will Create Files
 
 The `workspace/willCreateFiles` request is part of the Language Server Protocol (LSP) that is used during the creation of new files. This request is fired before the actual creation of files, allowing the server to provide edits that will get executed on the client side before the files are actually created.
 

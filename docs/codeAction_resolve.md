@@ -1,4 +1,4 @@
-### `codeAction/resolve` Command in LSP
+### Code Action / Resolve
 
 The `codeAction/resolve` request in Language Server Protocol (LSP) is used to obtain the full Information about a suggested `CodeAction`. This mainly comprises of computational expensive details like `edit`.
 

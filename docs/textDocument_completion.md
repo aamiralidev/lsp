@@ -1,4 +1,4 @@
-### `textDocument/completion` Command in LSP
+### Text Document / Completion
 
 The `textDocument/completion` request in the Language Server Protocol (LSP) is used to retrieve completion items at a given position in a text document. Completion items are suggestions provided directly by language servers for autocompletion.
 
