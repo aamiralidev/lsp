@@ -1,0 +1,109 @@
+{
+    "textDocument": [
+        "willSave",
+        "colorPresentation",
+        "prepareCallHierarchy",
+        "hover",
+        "didOpen",
+        "signatureHelp",
+        "completion",
+        "documentColor",
+        "reference",
+        "documentLink",
+        "rename",
+        "diagnostic",
+        "documentSymbol",
+        "formatting",
+        "semanticTokens",
+        "linkedEditingRange",
+        "prepareTypeHierarchy",
+        "foldingRange",
+        "definition",
+        "selectionRange",
+        "willSaveWaitUntil",
+        "prepareRename",
+        "rangeFormatting",
+        "codeLens",
+        "typeDefinition",
+        "declaration",
+        "references",
+        "didChange",
+        "didSave",
+        "publishDiagnostics",
+        "onTypeFormatting",
+        "inlineValue",
+        "didClose",
+        "documentHighlight",
+        "moniker",
+        "inlayHint",
+        "codeAction",
+        "implementation"
+    ],
+    "workspace": [
+        "didCreateFiles",
+        "didChangeWorkspaceFolders",
+        "diagnostic",
+        "applyEdit",
+        "didRenameFiles",
+        "semanticTokens",
+        "executeCommand",
+        "workspaceFolders",
+        "codeLens",
+        "didChangeConfiguration",
+        "configuration",
+        "didDeleteFiles",
+        "inlineValue",
+        "didChangeWatchedFiles",
+        "willCreateFiles",
+        "inlayHint",
+        "willRenameFiles",
+        "willDeleteFiles",
+        "symbol"
+    ],
+    "window": [
+        "showMessage",
+        "workDoneProgress",
+        "showDocument",
+        "showMessageRequest",
+        "logMessage"
+    ],
+    "telemetry": [
+        "event"
+    ],
+    "client": [
+        "registerCapability",
+        "unregisterCapability"
+    ],
+    "notebookDocument": [
+        "didChange",
+        "didSave",
+        "didOpen",
+        "didClose"
+    ],
+    "callHierarchy": [
+        "outgoingCalls",
+        "incomingCalls"
+    ],
+    "typeHierarchy": [
+        "subtypes",
+        "supertypes"
+    ],
+    "documentLink": [
+        "resolve"
+    ],
+    "codeLens": [
+        "resolve"
+    ],
+    "inlayHint": [
+        "resolve"
+    ],
+    "completionItem": [
+        "resolve"
+    ],
+    "codeAction": [
+        "resolve"
+    ],
+    "workspaceSymbol": [
+        "resolve"
+    ]
+}
