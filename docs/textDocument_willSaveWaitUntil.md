@@ -1,16 +1,16 @@
-### Text Document / Will Save Wait Until
+# Text Document / Will Save Wait Until
 
 The `textDocument/willSaveWaitUntil` request in the Language Server Protocol (LSP) is utilized when a document is about to be saved and the client requests potential edits from the server to modify the document before it is saved.
 
-#### Purpose
+## Purpose
 
 The objective of the `textDocument/willSaveWaitUntil` command is to facilitate automated edits or formatting tasks before the document gets saved. This enables developers to maintain clean and formatted code.
 
-#### Example Scenario
+## Example Scenario
 
 Assume you are working on a JavaScript module named `app.js` and you're about to save it. However, you want any typos or syntax errors to be automatically corrected before the file gets saved.
 
-#### Request Structure
+## Request Structure
 
 The request for `textDocument/willSaveWaitUntil` generally includes the document's identifier and the reason for the request.
 
@@ -34,7 +34,7 @@ In this request:
 - `uri` signifies the location of the document.
 - `reason` signifies the situation of the save operation (1 means 'Manual' save).
 
-#### Response Structure
+## Response Structure
 
 The response for this request will include a list of edits that should be applied to the document before it's saved.
 
@@ -66,6 +66,6 @@ In this response:
 - `range` signifies the location in the document where the edit should be done.
 - `newText` represents the text which should replace the range.
 
-### Summary
+## Summary
 
 The `textDocument/willSaveWaitUntil` request in LSP is an essential feature that allows automatic tasks such as formatting or quick-fixes to be executed right before the document gets saved. This ensures the code remains clean and consistent and it prevents minor mistakes from going unnoticed.

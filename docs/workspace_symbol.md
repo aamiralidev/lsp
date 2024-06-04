@@ -1,16 +1,16 @@
-### Workspace / Symbol
+# Workspace / Symbol
 
 The `workspace/symbol` request in the Language Server Protocol (LSP) is used to search for all the symbols in the entire workspace. Symbols can include functions, classes, variables, or type definitions. This is particularly useful for navigation and moving around large code bases.
 
-#### Purpose
+## Purpose
 
 The `workspace/symbol` command is designed to help developers find the location of specific symbols in their codebase. It helps to navigate to related sections of their project quickly. This command is particularly useful when working with larger projects where manual navigation between different code files would be time-consuming and inefficient.
 
-#### Example Scenario
+## Example Scenario
 
 Suppose you are developing a large e-commerce application and you need to find all the instances of the symbol `Product` which could be a class, interface, or function scattered across multiple files in your project.
 
-#### Request Structure
+## Request Structure
 
 The `workspace/symbol` request includes a `query` parameter that allows you to specify the name of the symbol you are looking for.
 
@@ -30,7 +30,7 @@ The `workspace/symbol` request includes a `query` parameter that allows you to s
 In this request:
 - `query` is the name of the symbol that you need to find in the workspace.
 
-#### Response Structure
+## Response Structure
 
 The response to the `workspace/symbol` request is an array of `SymbolInformation` objects each of which represents a usage of the symbol you searched for.
 
@@ -75,6 +75,6 @@ In this response:
 - `location` contains information about where the symbol is located. `uri` indicates the file, and `range` indicates the start and end positions of the symbol in the file.
 - `containerName` is the name of the container in which the symbol is found.
 
-### Summary
+## Summary
 
 The `workspace/symbol` request in LSP is a valuable feature for developers to quickly find and navigate to specific symbols within a large code base. It improves code navigation and understanding of the relationships between different components of a project.

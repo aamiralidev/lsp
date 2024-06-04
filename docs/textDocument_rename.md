@@ -1,16 +1,16 @@
-### Text Document / Rename
+# Text Document / Rename
 
 The `textDocument/rename` request in the Language Server Protocol (LSP) is utilized to rename all occurrences of a symbol found in the text document.
 
-#### Purpose
+## Purpose
 
 The primary purpose of the `textDocument/rename` command is to provide a way for developers to refactor their code by renaming a symbol throughout the entire workspace where it's being used. This is extremely useful when a method name needs to be made more descriptive or to adhere to certain coding standards without manually changing it in every place where it is used.
 
-#### Example Scenario
+## Example Scenario
 
 Consider a scenario where you have a function called 'getData' that you want to refactor to 'fetchUserData' for clarity in a JavaScript file.
 
-#### Request Structure
+## Request Structure
 
 The request for this function typically includes the text document identifier, the position of the symbol (function in this case), and the new name.
 
@@ -39,7 +39,7 @@ In this request:
 - `position` specifies the position in the document where the function 'getData' is defined.
 - `newName` is the new name for the function being renamed.
 
-#### Response Structure
+## Response Structure
 
 The response will include a list of changes to apply to the document to implement the rename.
 
@@ -77,6 +77,6 @@ In this response:
 - `range` specifies the start and end positions of each instance of the symbol being renamed.
 - `newText` is the new name for the function.
 
-### Summary
+## Summary
 
 The `textDocument/rename` request in LSP uses the power of the underlying language server to perform a project-wide rename operation. This function provides an efficient way to refactor a symbol's name across multiple files within the workspace, ensuring accuracy and consistency.

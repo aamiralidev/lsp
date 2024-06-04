@@ -1,16 +1,16 @@
-### Text Document / Document Symbol
+# Text Document / Document Symbol
 
 The `textDocument/documentSymbol` request in the Language Server Protocol (LSP) is used to provide a list of all symbols found inside a given text document. This feature is commonly used in code editors for populating a file's structure or outline view.
 
-#### Purpose
+## Purpose
 
 The `textDocument/documentSymbol` command assists developers in quickly understanding the structure of a file, by listing all the symbols in it, like functions, variables, classes, etc. It's essential for code navigation and quick browsing of a document's contents.
 
-#### Example Scenario
+## Example Scenario
 
 Imagine you are editing a file named `main.js` which contains several functions and variables. To get a quick overview of the file structure, the `textDocument/documentSymbol` command can be used.
 
-#### Request Structure
+## Request Structure
 
 The request for `textDocument/documentSymbol` typically includes the text document identifier.
 
@@ -32,7 +32,7 @@ The request for `textDocument/documentSymbol` typically includes the text docume
 In the request:
 - `uri` specifies the location of the file.
 
-#### Response Structure
+## Response Structure
 
 The response will include a list of all symbols found in the document, with their names, locations, types, and other details. Each item represents a symbol in the text document.
 
@@ -101,6 +101,6 @@ In this response:
 - `range` designates where the symbol is defined in the document.
 - `selectionRange` is the range in which the symbol's name appears in the code.
 
-### Summary
+## Summary
 
 The `textDocument/documentSymbol` request in LSP offers a way to outline relevant symbols in a document, thus aiding developers to quickly navigate and comprehend the structure of a code file.

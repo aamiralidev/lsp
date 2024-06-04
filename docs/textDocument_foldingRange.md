@@ -1,16 +1,16 @@
-### Text Document / Folding Range
+# Text Document / Folding Range
 
 The `textDocument/foldingRange` request in the Language Server Protocol (LSP) is used to retrieve folding ranges in a given text document. This feature allows developers to collapse (or fold) and expand (or unfold) sections of source code in order to improve readability and easier navigation.
 
-#### Purpose
+## Purpose
 
 The `textDocument/foldingRange` command aids developers by allowing them to condense sections of code that they're not currently focusing on, making it easier to navigate the document. This is particularly useful for large files with hundreds or thousands of lines of code.
 
-#### Example Scenario
+## Example Scenario
 
 Imagine you have a file named `main.js` which has hundreds of lines of code. You are currently working on a specific function and you want to collapse all other functions to reduce distractions and improve focus.
 
-#### Request Structure
+## Request Structure
 
 The request for `textDocument/foldingRange` typically includes the text document identifier.
 
@@ -32,7 +32,7 @@ The request for `textDocument/foldingRange` typically includes the text document
 In this request:
 - `uri` specifies the location of the file.
 
-#### Response Structure
+## Response Structure
 
 The response will include a list of `FoldingRange` objects, each representing a foldable range in the text document.
 
@@ -66,6 +66,6 @@ In this response:
 - `startCharacter` and `endCharacter` are the character positions of the starting and ending lines, respectively.
 - `kind` specifies the kind of folding range (comments, regions, imports, etc.).
 
-### Summary
+## Summary
 
 The `textDocument/foldingRange` request in LSP is a valuable tool for developers to reduce clutter and improve the readability of their code. By enabling the folding of code, they can concentrate on the code section that matters most to them at any given time.

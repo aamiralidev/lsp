@@ -1,16 +1,16 @@
-### Text Document / Code Action
+# Text Document / Code Action
 
 The `textDocument/codeAction` request in the Language Server Protocol (LSP) is used to compute commands for a given text range. 
 
-#### Purpose
+## Purpose
 
 The purpose of the `textDocument/codeAction` command is to provide developers with a list of available code actions (like quick-fixes, refactorings, etc.) for a specific range in a document, such as the current selection or the location of the cursor.
 
-#### Example Scenario
+## Example Scenario
 
 Suppose you are working on a Java file and there's an unused import in it. When your cursor is at the location of the unused import, the `textDocument/codeAction` could assist by suggesting the action of removing the unused import automatically.
 
-#### Request Structure
+## Request Structure
 
 The request for `textDocument/codeAction` contains information including the text document identifier, the range for which code actions are required, and the context consisting of diagnostics related to that range.
 
@@ -62,7 +62,7 @@ In this request:
 - `range` specifies the range in the document where the code action is required.
 - `diagnostics` denotes any diagnostic information related to the range.
 
-#### Response Structure
+## Response Structure
 
 The response will include an array of computed Command or CodeAction literals.
 
@@ -111,6 +111,6 @@ In this response:
 - `kind` describes the kind of code action (in this case 'quickfix').
 - `edit` contains the changes that need to be performed by the client to apply the code action.
 
-### Summary
+## Summary
 
 The `textDocument/codeAction` request in LSP aids developers in automatically correcting code issues, refactoring code, or conducting other context-specific code manipulations. It suggests the possible transformations a selected piece of code can undergo to enhance quality, efficiency, or readability.

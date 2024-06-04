@@ -1,16 +1,16 @@
-### Call Hierarchy / Outgoing Calls
+# Call Hierarchy / Outgoing Calls
 
 The `callHierarchy/outgoingCalls` request in the Language Server Protocol (LSP) is used to retrieve all outgoing calls from a given function or method. This is part of the Call Hierarchy feature, which allows developers to understand where a particular function or method is calling other parts of the codebase.
 
-#### Purpose
+## Purpose
 
 The `callHierarchy/outgoingCalls` command helps developers to pinpoint all the locations or functions/methods which a specific function is calling. It can assist in tracking code flow and understanding dependencies amongst functions/methods, thus facilitating code navigation and debugging process.
 
-#### Example Scenario
+## Example Scenario
 
 Let's assume you have a method named `processOrder` in a file called `orders.js` and you want to identify all the functions that this method calls.
 
-#### Request Structure
+## Request Structure
 
 The request for `callHierarchy/outgoingCalls` just like in `incomingCalls`, includes the text document identifier and the position where the function/method is defined in that document.
 
@@ -49,7 +49,7 @@ In this request:
 - `name` is the name of the method.
 - `kind` indicates the symbol kind (in this case, a method).
 
-#### Response Structure
+## Response Structure
 
 The response consists of a list of call hierarchy items, each of which represents a call from the specified function or method and gives detailed information of the calls made.
 
@@ -130,6 +130,6 @@ In this response:
 - `range` specifies the range in the document where the called function/method is defined.
 - `fromRanges` provides the specific locations within the calling function where the target function(s) are invoked.
 
-### Summary
+## Summary
 
 The `callHierarchy/outgoingCalls` request in LSP is an important feature for developers as it helps trace the code flow by identifying where certain function/method is calling other parts of the codebase. This enhances code navigation, debugging, and overall understanding of the code structure.

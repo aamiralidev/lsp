@@ -1,16 +1,16 @@
-### Text Document / Publish Diagnostics
+# Text Document / Publish Diagnostics
 
 The `textDocument/publishDiagnostics` request in the Language Server Protocol (LSP) is used to send diagnostic information from the server to the client. Diagnostic information typically includes errors, warnings, and hints about potential issues within a piece of code.
 
-#### Purpose
+## Purpose
 
 The `textDocument/publishDiagnostics` command is intended to provide real-time feedback to developers about problems in their code as they write it. This can help them spot and fix issues early, saving crucial debugging time later.
 
-#### Example Scenario
+## Example Scenario
 
 Imagine you are writing code in a file named `main.js` and the language server detects a syntax error, such as a missing closing parentheses. It can use `textDocument/publishDiagnostics` to notify your editor about this error.
 
-#### Request Structure
+## Request Structure
 
 The server sends diagnostics as notifications, thus does not require a response. It includes the URI of the document and an array of diagnostic objects indicating any issues detected in the document.
 
@@ -51,10 +51,10 @@ In this notification:
 - `source` indicates which language the diagnostic is coming from.
 - `message` provides a detailed description of the issue.
 
-#### Response Structure
+## Response Structure
 
 Since this is a notification message, there is no response from the client for a `textDocument/publishDiagnostics` message.
 
-### Summary
+## Summary
 
 The `textDocument/publishDiagnostics` request in LSP is a tool for language servers to communicate real-time syntax errors and warnings to clients. This aids in detecting and correcting code quality issues early, thereby improving overall code quality and reducing debugging time.

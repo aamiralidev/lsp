@@ -1,16 +1,16 @@
-### Workspace / Apply Edit
+# Workspace / Apply Edit
 
 The `workspace/applyEdit` request is a part of the Language Server Protocol (LSP) and it is used to request the application of a workspace edit from the server to the client-side.
 
-#### Purpose
+## Purpose
 
 The `workspace/applyEdit` request is utilized to enact certain changes from the server-side, such as refactoring, renaming symbols, fixing code issues, and so forth. As a result, the client-side documents are updated consistently and synchronously with changes implemented on the server.
 
-#### Example Scenario
+## Example Scenario
 
 For instance, consider a scenario where a function `getUserName` is renamed to `fetchUserName` in a codebase. To reflect this change across all uses of `getUserName` in the client-side codebase, a `workspace/applyEdit` request would be initiated from the server-side.
 
-#### Request Structure
+## Request Structure
 
 The request of `workspace/applyEdit` usually contains the `label` (a description of changes for tracking purposes) and the `edit` (changes to be applied).
 
@@ -53,7 +53,7 @@ In this request:
 - `range` specifies the range in the document where the change will be applied.
 - `newText` specifies the updated text after the change is applied.
 
-#### Response Structure
+## Response Structure
 
 The response to a `workspace/applyEdit` includes bool `applied` which indicates whether or not the requested edit(s) were applied.
 
@@ -73,6 +73,6 @@ The response to a `workspace/applyEdit` includes bool `applied` which indicates 
 In this response:
 - `applied` indicates whether the changes were successfully implemented on the client-side.
 
-### Summary
+## Summary
 
 The `workspace/applyEdit` request within LSP helps in implementing global changes across documents on the client-side. This ensures that all updates made on the server-side are consistently and efficiently reflected in the client's workspace. This aids in code refactoring, symbol renaming and many other code editing practices.

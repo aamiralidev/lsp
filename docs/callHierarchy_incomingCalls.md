@@ -1,16 +1,16 @@
-### Call Hierarchy / Incoming Calls
+# Call Hierarchy / Incoming Calls
 
 The `callHierarchy/incomingCalls` request is used in the Language Server Protocol (LSP) for obtaining incoming calls targeting a specific method or function. It is part of the call hierarchy functionality to enhance developers' understanding of the invocation of specific methods or functions across different locations in the source code.
 
-#### Purpose
+## Purpose
 
 The `callHierarchy/incomingCalls` request can assist developers in pinpointing all parts of the source code where a particular method or function is invoked. It greatly helps in navigating the code, code refactoring, and understanding dependencies in the codebase.
 
-#### Example Scenario
+## Example Scenario
 
 Assume that in your code there's a function called `computeSum` in a file named `mathOperations.js`, and you are trying to identify all instances in the code where `computeSum` is invoked.
 
-#### Request Structure
+## Request Structure
 
 The request for `callHierarchy/incomingCalls` usually contains the identifier of the text document and the position within the document where the targeted method or function resides.
 
@@ -49,7 +49,7 @@ Here, in this request,
 - `name` is the name of the function.
 - `kind` represents the kind of symbol, here it's a method (specified by the number 12).
 
-#### Response Structure
+## Response Structure
 
 The response contains a list of call hierarchy items, each one of which represents an invocation of the targeted function or method.
 
@@ -130,6 +130,6 @@ In this response,
 - `range` defines the location in the document where the function that invokes the target function is found.
 - `fromRanges` illustrates specific locations within the invoking function where the target function gets called.
 
-### Summary
+## Summary
 
 Overall, the `callHierarchy/incomingCalls` command helps developers trace the locations where a particular function or method is invoked, which can greatly assist in code navigation and understanding the overall structure of the project.

@@ -1,16 +1,16 @@
-### Client / Register Capability
+# Client / Register Capability
 
 The `client/registerCapability` request in the Language Server Protocol (LSP) is used to dynamically register capabilities of the client with the server. It allows the server to push new capabilities to the client post-initialization, offering additional flexibility in communication.
 
-#### Purpose
+## Purpose
 
 The `client/registerCapability` command lets the server control the client's created capabilities after the initial configuration. This approach reduces the client-server interaction resources required when changing server-side features or capabilities, enhances server performance, and allows the client to utilize new server features dynamically.
 
-#### Example Scenario
+## Example Scenario
 
 A scenario may involve a server that allows executing a command dynamically. Initially, the client might not support this execution capability. However, when the client becomes capable of it, it can dynamically register this support with the server using the `client/registerCapability` request.
 
-#### Request Structure
+## Request Structure
 
 The request to `client/registerCapability` typically contains the list of registrations.
 
@@ -40,7 +40,7 @@ In this request:
 - `method` is the method/capability to be registered.
 - `registerOptions` is an optional registration parameter provided by the capability.
 
-#### Response Structure
+## Response Structure
 
 As per the definition of `client/registerCapability`, there is no defined response format as it does not require an explicit response. However, in case of any error during the process, an error message can be returned.
 
@@ -61,6 +61,6 @@ In this typical error response:
 - `code` is a number identifying the error type.
 - `message` is a string providing a short description of the error.
 
-### Summary
+## Summary
 
 The `client/registerCapability` request in LSP allows the server to recognize when the client has added new capabilities. This command improves the dynamicity and efficiency of a language server and its interacting client, contributing to maximized utility and performance.

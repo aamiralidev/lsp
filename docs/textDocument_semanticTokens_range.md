@@ -1,16 +1,16 @@
-### Text Document / Semantic Tokens / Range
+# Text Document / Semantic Tokens / Range
 
 The `textDocument/semanticTokens/range` request in the Language Server Protocol (LSP) is used to fetch semantic tokens for a given range. Semantic tokens are used to highlight the syntax of source code, where each token refers to a span of source code that has semantic meaning.
 
-#### Purpose
+## Purpose
 
 The `textDocument/semanticTokens/range` command facilitates the highlighting of programming syntax. This is especially useful for publishers and editors, converting plain code text into visually distinguishable parts, which have semantic meaning in the corresponding programming language.
 
-#### Example Scenario
+## Example Scenario
 
 Imagine you have a code editor, and you want to add syntax highlighting to the range [line: 5 character: 10, line: 20 character: 5] in a source code file.
 
-#### Request Structure
+## Request Structure
 
 The request for `textDocument/semanticTokens/range` typically includes the text document identifier and the range within the document you wish to fetch semantic tokens for.
 
@@ -43,7 +43,7 @@ In this request:
 - `uri` specifies the location of the file.
 - `range` specifies the range in the document for which you need the semantic tokens.
 
-#### Response Structure
+## Response Structure
 
 The `textDocument/semanticTokens/range` response includes an array of integers which represent semantic tokens. Each semantic token is represented by five integers: deltaLine, deltaStart, length, tokenType, and tokenModifiers.
 
@@ -66,6 +66,6 @@ The `textDocument/semanticTokens/range` response includes an array of integers w
 In this response:
 - `data` is an array of integers, with each group of five integers representing a semantic token.
 
-### Summary
+## Summary
 
 The `textDocument/semanticTokens/range` request in LSP supports publishers in displaying source code with correct syntax highlighting. The command fetches an array of semantic tokens for a specific range within a text document, and the response includes information such as the line, start position, length, token type, and token modifiers for each semantic token.

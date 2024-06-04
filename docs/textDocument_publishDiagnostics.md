@@ -1,16 +1,16 @@
-### Text Document / Publish Diagnostics
+# Text Document / Publish Diagnostics
 
 The `textDocument/publishDiagnostics` command in the Language Server Protocol (LSP) is a notification that the language server sends to the client when there are diagnostic updates for a particular file, such as errors or warnings.
 
-#### Purpose
+## Purpose
 
 This command essentially helps developers identify issues like syntax errors, type mismatches, and undefined variables in their code early, facilitating faster and more accurate debugging.
 
-#### Example Scenario
+## Example Scenario
 
 Let's consider a scenario where the developer is editing a Java file and accidentally mismatches the datatype in a statement, which results in a compile-time error. As soon as the compiler detects this error, the `textDocument/publishDiagnostics` command is issued to highlight this error and its location to the developer.
 
-#### Message Structure
+## Message Structure
 
 Since this is a notification from server to client, no request is needed. The server pushes the notification to the client.
 
@@ -52,5 +52,5 @@ In this notification:
     - `source` indicates the provider of the diagnostic message.
     - `message` is the human-readable message given for the diagnostic.
 
-#### Summary
+### Summary
 The `textDocument/publishDiagnostics` notification stands as an integral part of the LSP, allowing developers to identify code flaws early and as they code. By positioning such real-time feedback, it significantly enhances the coding experience, making debugging a far efficient process.

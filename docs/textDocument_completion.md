@@ -1,16 +1,16 @@
-### Text Document / Completion
+# Text Document / Completion
 
 The `textDocument/completion` request in the Language Server Protocol (LSP) is used to retrieve completion items at a given position in a text document. Completion items are suggestions provided directly by language servers for autocompletion.
 
-#### Purpose
+## Purpose
 
 The `textDocument/completion` command aids developers with code completion, making coding faster and less prone to typos and other common errors. It serves as a suggestion mechanism for developers when coding in various languages.
 
-#### Example Scenario
+## Example Scenario
 
 Imagine you are coding in a JavaScript file called `app.js` and you started typing `cons`. The `textDocument/completion` request can help you by suggesting `console`, `const`, `constructor` and settings related to them as possible completions.
 
-#### Request Structure
+## Request Structure
 
 The request for `textDocument/completion` includes the text document identifier and the position within the document where autocompletion suggestions are required.
 
@@ -37,7 +37,7 @@ In this request:
 - `uri` identifies the file in which autocompletion suggestions are required.
 - `position` specifies the location in the document where the suggestions are required.
 
-#### Response Structure
+## Response Structure
 
 The response will include a list of completion items, each with details such as label, kind, detail, insert text etc.
 
@@ -84,6 +84,6 @@ In this response:
 - `insertText` specifies the actual syntax that gets inserted when this completion is chosen.
 - `insertTextFormat` states format of the insert text.
 
-### Summary
+## Summary
 
 The `textDocument/completion` request in LSP is a crucial feature for fast and error-free coding. It provides autocompletion suggestions in real-time as the developer codes, thereby improving coding speed and reducing common errors.

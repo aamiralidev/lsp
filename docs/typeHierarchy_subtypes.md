@@ -1,16 +1,16 @@
-### Type Hierarchy / Subtypes
+# Type Hierarchy / Subtypes
 
 The `typeHierarchy/subtypes` request in the Language Server Protocol (LSP) is used to retrieve all the subtypes of a given type. This is part of the Type Hierarchy feature, allowing developers to understand the inheritance relationship of classes in object-oriented programming.
 
-#### Purpose
+## Purpose
 
 The `typeHierarchy/subtypes` command helps developers identify all the classes that extend a particular superclass. This assists in code navigation, debugging, and understanding polymorphism, inheritance and encapsulation in the code.
 
-#### Example Scenario
+## Example Scenario
 
 Let's consider a software project in Java, featuring a class called `Vehicle`. You desire to identify all classes that extend `Vehicle`.
 
-#### Request Structure
+## Request Structure
 
 The request for `typeHierarchy/subtypes` primarily includes the text document identifier and the position within the document where the type is defined.
 
@@ -37,7 +37,7 @@ In this request:
 - `uri` specifies the location of the file.
 - `position` pinpoints the position in the document where the `Vehicle` class is defined.
 
-#### Response Structure
+## Response Structure
 
 The response will feature a list of type hierarchy items, each representing a subtype of the type requested.
 
@@ -94,6 +94,6 @@ In this response:
 - `name` is the name of the subclass.
 - `kind` is the kind of symbol (in this case, a class).
 
-### Summary
+## Summary
 
 The `typeHierarchy/subtypes` request in LSP is a valuable tool for developers to trace and understand the subtypes (inheritance hierarchy) of a particular type (class). It assists in understanding the relationship between classes, enabling more effective navigation through the codebase.

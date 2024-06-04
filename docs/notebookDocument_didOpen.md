@@ -1,16 +1,16 @@
-### Notebook Document / Did Open
+# Notebook Document / Did Open
 
 The `notebookDocument/didOpen` notification is used in the Language Server Protocol (LSP) to notify the language server that a notebook document has been opened by the client. It's part of the functionality that allows IDEs or editors to work with Jupyter notebooks or any other structured document that can be thought of as a "notebook".
 
-#### Purpose
+## Purpose
 
 The `notebookDocument/didOpen` command allows the server to keep track of open documents and their content. By receiving this notification, the server can process various language features for the opened notebook document, like syntax highlighting, code completion, etc.
 
-#### Example Scenario
+## Example Scenario
 
 For example, a user opens a Jupyter notebook file in VS Code. The editor sends the `notebookDocument/didOpen` notification to update the server that the notebook is now opened and available for interaction.
 
-#### Request Structure
+## Request Structure
 
 A `notebookDocument/didOpen` doesn't return a request. Instead, the server receives a notification with the following structure:
 
@@ -38,10 +38,10 @@ In this notification:
 - `version` is the version of the document; the count starts at 1 and increments for each change to the document.
 - `content` is the text content of the opened notebook document.
 
-#### Response Structure
+## Response Structure
 
 Since `notebookDocument/didOpen` is a notification, there's no direct response from the server to the client. However, after receiving this notification, the server will start providing language services (like code completion, error checking, and more) for the opened notebook document.
 
-#### Summary
+### Summary
 
 The `notebookDocument/didOpen` notification in LSP is used when a notebook document is opened in the client. This allows the server to provide language services like code highlighting or error checking for the opened notebook document.
