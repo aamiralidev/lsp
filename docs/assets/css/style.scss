@@ -49,7 +49,7 @@ a[href^="http"]:after {
   top: 0;
   bottom: 0;
   width: $sidebar-width;
-  // overflow-y: auto;
+  overflow-y: auto;
   border-right: 1px solid #ccc;
   z-index: 1;
 
